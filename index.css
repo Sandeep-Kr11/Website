@@ -1,0 +1,53 @@
+#container{background-color: black;}
+
+#card1{margin: auto; 
+    background-color: 
+    transparent;color: white; }
+
+#body{margin: auto;}    
+
+#button{background-color: rgb(226, 39, 42);
+    color: wheat; 
+    border: none; 
+    border-radius: 10px; 
+    width: 120px; 
+    height: 30px}
+
+.card-title{color:rgb(226, 39, 42);
+  font-family: 'Lobster', cursive; }
+
+.read{color:rgb(226, 39, 42);}
+
+.card-title1{color:rgb(226, 39, 42);
+text-align: center;
+font-family: 'Lobster', cursive;
+font-weight: 600;}
+
+.card{box-shadow: 3px 3px 3px 3px rgb(219, 203, 172);}
+
+.row-second{position: relative;top: 80px;
+display: flex;}
+
+.row-fivetext{display: flex;
+gap: 18px;
+position: relative;top: 120px;
+
+}
+
+.half{display: flex;}
+
+
+@media only screen and (max-width: 770px){
+  .row-fivetext,.row-second,.half{
+   display: block;
+   padding: 10px;
+   }
+
+   }
+
+
+
+
+
+
+
